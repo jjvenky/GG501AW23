@@ -1,0 +1,102 @@
+---
+title: "Data/Analytic Visualization"
+---
+
+## SKM Introduction
+
+### Readings this week
+
+-   [TCL-4 Effective Visualization](https://ubc-dsci.github.io/introduction-to-datascience/viz.html)
+-   [HMP-1 Introduction](https://ggplot2-book.org/introduction.html)
+-   [HNP-2 First Steps](https://ggplot2-book.org/getting-started.html)
+
+## Tabular Data
+
+### Readings this week
+
+[HNP-3 Individual geoms](https://ggplot2-book.org/individual-geoms.html) [HNP-4 Collective geoms](https://ggplot2-book.org/collective-geoms.html) [HNP-5 Statistical summaries](https://ggplot2-book.org/statistical-summaries.html) [ggplot2 Cheat Sheet](https://rawgit.com/rstudio/cheatsheets/master/data-visualization.pdf)
+
+### Case study
+
+Surveying farmers about agricultural practices. This project was in consultation with an environmental agriculture association aiming to understand barriers to the adoption of specific farming practices, specifically the use of [cover crops](https://www.sare.org/resources/cover-crops/).
+
+![Red Clover cover crops on farm field. Image credit: <https://www.country-guide.ca/>](img/covercrops.jpeg)
+
+The survey asked farmers about their use of cover crops and any barriers they experienced in applying this practice to their farms. We will walk-through a detailed analysis of this farmer survey data, which is primarily tabular data with some spatial and temporal components.
+
+First, let's look at the raw data.
+
+![Snapshot of farmer survey data](img/covercropsdata.png)
+
+Some things you need to check when inspecting a new dataset, include at least the following:
+
+-   are the column names well-formed?
+
+-   what columns have NULL values, will this cause an issue, how are NULL values coded, is it consistent?
+
+-   do any columns have a mix of data types? (e.g., see column `AH`)
+
+-   are there data that should anonymized?
+
+-   are there gaps above or below the data, or ad hoc summaries that need to be removed?
+
+-   are there any obviously erroneous values (i.e., not valid outliers but errors, such as a value of `491` in the `age` column) that need to be removed?
+
+As well as some deeper questions:
+
+-   do you understand what each column and value means, what each row represents? If there are some you do not understand consider whether the columns you do understand are sufficient to answer the key questions you're exploring with this dataset?
+
+-   are the data stored in the correct data type (especially important if viewing data in Microsoft Excel)?
+
+-   are the data complete? (i.e., are all the expected rows there, does the `rowcount` = the sample size)?
+
+Secondly, let's examine the end product we created to explore this data. The graphs here were used in a report summarizing key trends.
+
+![Screenshot of farmer survey report. View the full report [here](https://rpubs.com/colinr23/farmers).](img/coverscreen.png)
+
+## Time Series Data
+
+### Readings this week
+
+-   [Neon Tutorial - Time Series with ggplot2 in R](https://www.neonscience.org/resources/learning-hub/tutorials/dc-time-series-plot-ggplot-r)
+
+-   [A Little Book of R for Time Series](https://buildmedia.readthedocs.org/media/pdf/a-little-book-of-r-for-time-series/latest/a-little-book-of-r-for-time-series.pdf)
+
+-   [Lubridate Cheat Sheet](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf)
+
+## Spatial Data
+
+### Readings this week
+
+-   [Lovelace-2 Geographic Data in R](https://geocompr.robinlovelace.net/spatial-class.html)
+
+-   [HNP-6 Maps](https://ggplot2-book.org/maps.html)
+
+-   [Pebezma - 2018](https://journal.r-project.org/archive/2018/RJ-2018-009/RJ-2018-009.pdf)
+
+-   [simple features webpage](https://r-spatial.github.io/sf/)
+
+-   [Spatial Objects in R Tutorial](https://mhweber.github.io/R-User-Group-Spatial-Workshop-2018/SpatialObjects.html)
+
+-   [Spatial analysis in R Demo](https://paezha.github.io/spatial-analysis-r/introduction-to-maps.html)
+
+### Case Study
+
+Here we will walk through a spatial visualization analysis from start to finish and make some key decisions about how we want to visualize the data. The data we are going to start with is from crime statistics in the City of Toronto. [We can find the materials for this walk-through here](https://colinr23.github.io/GESC151/gis-and-big-data.html).
+
+
+## Model Data
+
+Statisical modelling is a core construct in `R` due to its roots as a statistical programming language. Base `R` has powerful modelling features such as `lm` and `glm` for fitting models to data. As well, there are hundreds (thousands?) of additional packages that implement almost any conceivable statistical model, from time series to spatial point process models to survival models. This week we will review some basic ideas of randomness and modelling and then explore how to visualize and interrogate models using `tidyverse` friendly packages and tools.
+
+### Resources this week
+
+-   [Kabakoff - Ch. 8 statistical models](https://rkabacoff.github.io/datavis/Models.html)
+
+-   [bootstrapping and visualizing models](https://www.tidymodels.org/learn/statistics/bootstrap/)
+
+-   [broom and dplyr vignette](https://cran.r-project.org/web/packages/broom/vignettes/broom_and_dplyr.html)
+
+-   [jtools package](https://cran.r-project.org/web/packages/jtools/vignettes/effect_plot.html)
+
+-   [visualizing models 101](https://towardsdatascience.com/visualizing-models-101-using-r-c7c937fc5f04)

@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>GG501 - 3&nbsp; Data/Analytic Critique</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./data-to-decisions.html" rel="next">
+<link href="./dataanalytic-visualization.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data/Analytic Critique</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">GG501</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">GG501 Spatial Knowledge Mobilization</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dataanalytic-visualization.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Data/Analytic Visualization</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dataanalytic-critique.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data/Analytic Critique</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-to-decisions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data to Decisions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./assignments.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Assignments</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#spatial-modelling-example---adapted-workshop-example" id="toc-spatial-modelling-example---adapted-workshop-example" class="nav-link active" data-scroll-target="#spatial-modelling-example---adapted-workshop-example"><span class="toc-section-number">3.1</span>  Spatial modelling example - adapted workshop example</a>
+  <ul class="collapse">
+  <li><a href="#resources-this-week" id="toc-resources-this-week" class="nav-link" data-scroll-target="#resources-this-week"><span class="toc-section-number">3.1.1</span>  Resources this week</a></li>
+  </ul></li>
+  <li><a href="#parameterizationvalidation-iii" id="toc-parameterizationvalidation-iii" class="nav-link" data-scroll-target="#parameterizationvalidation-iii"><span class="toc-section-number">3.2</span>  Parameterization/Validation I/II</a></li>
+  <li><a href="#modelling-socio-technical-critique" id="toc-modelling-socio-technical-critique" class="nav-link" data-scroll-target="#modelling-socio-technical-critique"><span class="toc-section-number">3.3</span>  Modelling: Socio-Technical Critique</a>
+  <ul class="collapse">
+  <li><a href="#resources-this-week-1" id="toc-resources-this-week-1" class="nav-link" data-scroll-target="#resources-this-week-1"><span class="toc-section-number">3.3.1</span>  Resources this week</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data/Analytic Critique</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>The use of modelling is increasing as more data is produced and codified into machine-readable forms. From classical statistical models to modern machine learning frameworks, models make inferences about real world processes that rely on implicit and explicit assumptions and decisions. In order to work effectively with the outptus of models we must be able to explore these underlying factors and how they influence what models produce. As machine learning models in particular are encoded into complex data-analytic workflows, we need to develop skills for interrograting and deconstructing models, their paramaters and uncertainties, and their strengths and weaknesses. The next two weeks will focus on developing some skills for working with model output and exploring their fit in the context of R-based data science workflow, however similar tools exist and can be used in other languages and/or modelling environments.</p>
+<section id="spatial-modelling-example---adapted-workshop-example" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="spatial-modelling-example---adapted-workshop-example"><span class="header-section-number">3.1</span> Spatial modelling example - adapted workshop example</h2>
+<p>The <a href="https://www.fs.fed.us/rm/ogden/research/Rworkshop/SampleData.shtml">data for this workshop</a> demo exists as multiple files and folders, so we have zipped them up and posted them to this github repo. Note that we have to use the <code>raw</code> link to get access to the actual data file not the page that shows the file, with that link we can follow the workflow we have used before to download, unzip and remove the zip file. Note that his zip file is large (~17 mb) so we probably only want to download it once.</p>
+<pre><code>#download.file("https://github.com/colinr23/gg501/blob/main/data/workshop_data.zip?raw=true", 
+#              destfile = "workshop_data.zip" , mode='wb')
+#unzip("workshop_data.zip", exdir = ".")
+#file.remove("workshop_data.zip")</code></pre>
+<p>Read in and examine the data:</p>
+<pre><code>library(readr)
+library(dplyr)
+library(tibble)
+
+options(scipen=6)
+plt &lt;- read_csv("workshop_data/SampleData_Basics/plt.csv", 
+                col_types = list(col_character(), col_integer(), 
+                col_integer(), col_integer(), col_integer(), col_double(), 
+                col_double(), col_integer(), col_double(), col_double(), 
+                col_character(), col_integer()))
+tree &lt;- read_csv("workshop_data/SampleData_Basics/tree.csv", col_types = list(col_character()))
+ref &lt;- read_csv("workshop_data/SampleData_Basics/ref_SPCD.csv")
+
+tree &lt;- left_join(tree, ref, by="SPCD")
+
+spfreq &lt;- tree %&gt;% select(PLT_CN, SPNM)  %&gt;% table() %&gt;% as.data.frame.matrix()  %&gt;% select(aspen) %&gt;% rownames_to_column("PLT_CN")
+#reset any counts greater than 1 to 1 --binary response
+spfreq$aspen[spfreq$aspen&gt;0] &lt;- 1
+plt2 &lt;- left_join(plt, spfreq, by=c("CN" = "PLT_CN"))</code></pre>
+<p>Now we have created the <code>plt2</code> dataset at the plot level which contains plots where aspen is present or absent. We will keep working with the instructions from the workshop slides and modernize some of the workflow:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/response.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Slide from workshop.</figcaption><p></p>
+</figure>
+</div>
+<pre><code>## Forest Inventory data (Model response)
+## Now, let's compile total carbon by plot and append to plot table.
+# First, create a table of counts by plot.
+plt2 &lt;- tree %&gt;% group_by(PLT_CN) %&gt;% 
+  summarise(CARBON_AG = sum(CARBON_AG)) %&gt;% 
+  mutate(CARBON_KG = round(CARBON_AG * 0.453592)) %&gt;% 
+  right_join(plt2, by = c("PLT_CN" = "CN")) %&gt;% 
+  mutate(CARBON_KG=replace(CARBON_KG, is.na(CARBON_KG), 0)) %&gt;% 
+  mutate(aspen=replace(aspen, is.na(aspen), 0)) %&gt;% 
+  mutate(CARBON_AG = NULL)</code></pre>
+<p>Now we can carry on with some of the spatial data processing to build the variables for modelling, a very common workflow:</p>
+<pre><code># Load libraries
+library(rgdal)  # GDAL operations for spatial data
+library(raster) # Analyzing gridded spatial data
+library(rpart)  # Recursive partitioning and regression trees
+library(car)    # For book (An R Companion to Applied Regression)
+library(randomForest)   # Generates Random Forest models
+library(PresenceAbsence)    # Evaluates results of presence-absence models
+library(ModelMap)   # Generates and applies Random Forest models
+
+# We need to extract data from spatial layers, so let's convert the plot table to a SpatialPoints object in R.
+## We know the projection information, so we can add it to the SpatialPoints object. 
+prj4str &lt;- "+proj=longlat +ellps=GRS80 +datum=NAD83 +no_defs"
+ptshp &lt;- SpatialPointsDataFrame(plt[,c("LON","LAT")], plt,      proj4string = CRS(prj4str))
+## Display the points
+plot(ptshp)</code></pre>
+<p>image</p>
+<pre><code>## Predictor variables:
+    # Landsat Thematic Mapper, band 5   30-m spectral data, band 5, resampled to 90 m
+    # Landsat Thematic Mapper, NDVI 30-m spectral data, NDVI, resampled to 90 m
+    # Classified forest/nonforest map       250-m classified MODIS, resampled to 90 m
+    # Elevation             30-m DEM, resampled to 90 m
+    # Slope                 90-m DEM – derived in a following slides
+  # Aspect  
+## Set file names
+b5fn &lt;- "workshop_data/SampleData_Spatial/uintaN_TMB5.img"      # Landsat TM–Band5
+ndvifn &lt;- "workshop_data/SampleData_Spatial/uintaN_TMndvi.img"      # Landsat TM–NDVI
+fnffn &lt;- "workshop_data/SampleData_Spatial/uintaN_fnfrcl.img"       # Forest type map (reclassed)
+elevfn &lt;- "workshop_data/SampleData_Spatial/uintaN_elevm.img"       # Elevation (meters)
+
+## Reclass raster layer to 2 categories
+fnf &lt;- raster("workshop_data/SampleData_Spatial/uintaN_fnf.img")
+
+## Create raster look-up table
+fromvect &lt;- c(0,1,2,3)
+tovect &lt;- c(2,1,2,2)
+rclmat &lt;- matrix(c(fromvect, tovect), 4, 2)
+## Generate raster and save to SpatialData folder
+fnfrcl &lt;- reclassify(x=fnf, rclmat, datatype='INT2U', filename="workshop_data/SampleData_Spatial/uintaN_fnfrcl.img", overwrite=TRUE)
+
+## Check rasters
+rastfnlst &lt;- c(b5fn, ndvifn, fnffn, elevfn)
+rastfnlst
+
+sapply(rastfnlst, raster)
+
+## Now, let's generate slope from DEM. Save it to your workshop_data/SampleData_Spatial folder.
+help(terrain)
+help(writeRaster)
+
+slpfn &lt;- "workshop_data/SampleData_Spatial/uintaN_slp.img" 
+slope &lt;- terrain(raster(elevfn), opt=c('slope'), unit='degrees',    filename=slpfn, datatype='INT1U', overwrite=TRUE)
+####************* this may take some time ****************  
+plot(slope, col=topo.colors(6))</code></pre>
+<p>image</p>
+<pre><code>####************* this may take some time ****************
+
+
+## Check rasters
+rastfnlst &lt;- c(b5fn, ndvifn, fnffn, elevfn, slpfn)
+rastfnlst
+
+sapply(rastfnlst, raster)
+
+## We can also generate aspect from DEM. Save it to your workshop_data/SampleData_Spatial folder.
+help(terrain)
+
+## This is an intermediate step, so we are not going to save it.
+aspectr &lt;- terrain(raster(elevfn), opt=c('aspect'), unit='radians')
+aspectr
+
+# Note: Make sure to use radians, not degrees
+####************* this may take some time ****************
+plot(aspectr, col=terrain.colors(6))</code></pre>
+<p>image</p>
+<pre><code>## Aspect is a circular variable. There are a couple ways to deal with this:
+
+## 1. Convert the values to a categorical variable (ex. North, South, West, East)
+
+## We derived aspect in radians. First convert radians to degrees.
+aspectd &lt;- round(aspectr * 180/pi)
+aspectd
+
+## Now, create a look-up table of reclass values.
+help(reclassify)
+frommat &lt;- matrix(c(0,45, 45,135, 135,225, 225,315, 315,361), 5, 2)
+frommat
+
+frommat &lt;- matrix(c(0,45, 45,135, 135,225, 225,315, 315,361), 5, 2, byrow=TRUE)
+frommat
+
+tovect &lt;- c(1, 2, 3, 4, 1)
+
+rclmat &lt;- cbind(frommat, tovect)
+rclmat
+
+## Reclassify raster to new values.
+aspcl &lt;- reclassify(x=aspectd, rclmat, include.lowest=TRUE)
+aspcl
+
+unique(aspcl)
+
+bks &lt;- c(0,sort(unique(aspcl))) # Break points
+cols &lt;- c("dark green", "wheat", "yellow", "blue")  # Colors
+labs &lt;- c("North", "East", "South", "West") # Labels
+lab.pts &lt;- bks[-1]-diff(bks)/2  # Label position
+####************* this may take some time ****************
+plot(aspcl, col=cols, axis.args=list(at=lab.pts, labels=labs), breaks=bks)</code></pre>
+<p>images</p>
+<pre><code>## 2. Convert to a linear variable (ex. solar radiation index; Roberts and Cooper 1989)
+
+aspval &lt;- (1 + cos(aspectr+30))/2   ## Roberts and Cooper 1989
+aspval
+
+plot(aspval)</code></pre>
+<p>image</p>
+<pre><code>## Let's multiply by 100 and round so it will be an integer (less memory)
+aspval &lt;- round(aspval * 100)
+aspval
+
+plot(aspval)</code></pre>
+<p>image</p>
+<pre><code># Save this layer to file
+aspvalfn &lt;- "workshop_data/SampleData_Spatial/uintaN_aspval.img"
+writeRaster(aspval, filename=aspvalfn, datatype='INT1U', overwrite=TRUE)
+
+# Add aspval to rastfnlst
+rastfnlst &lt;- c(rastfnlst, aspvalfn)
+
+## Converts aspect into solar radiation equivalents, with a correction of 30 degrees to reflect ## the relative heat of the atmosphere at the time the peak radiation is received. 
+## Max value is 1.0, occurring at 30 degrees aspect; min value is 0, at 210 degrees aspect. 
+
+#Roberts, D.W., and S. V. Cooper. 1989. Concepts and techniques in vegetation mapping. In Land classifications based on vegetation: applications for resource management. D. Ferguson, P. Morgan, and F. D. Johnson, editors. USDA Forest Service General Technical Report INT-257, Ogden, Utah, USA.</code></pre>
+<p><strong>Predictor Data Extraction</strong></p>
+<p><img src="img/extraction.png" class="img-fluid"></p>
+<p><br>
+One of the most common uses of GIS and spatial processing functions in <code>r</code> is to build spatial variables which are then used for modelling. Here we have some data at specific coordinates where field plots were located, and we have several raster layers where we have environmental covariates. We want to extract values of raster layers at the locations of the point data.</p>
+<pre><code>## We need to check the projections of the rasters. If the projections are different,
+## reproject the points to the projection of the rasters, it is much faster.
+
+## We will use the plt2 table with LON/LAT coordinates and the response data attached.
+head(plt2)</code></pre>
+<p><br>
+</p>
+<pre><code>## We know the LON/LAT coordinates have the following projection:
+prj4str &lt;- "+proj=longlat +ellps=GRS80 +datum=NAD83 +no_defs"
+
+# Check projections of each raster..  
+sapply(rastfnlst, function(x){ projection(raster(x)) })
+
+## Reproject SpatialPoints object to match raster projections. 
+help(project)
+rast.prj &lt;- projection(raster(rastfnlst[1]))
+xy &lt;- cbind(plt$LON, plt$LAT)
+xyprj &lt;- project(xy, proj=rast.prj)
+## Extract values (raster package)
+help(extract)
+
+# Let's extract values from 1 layer.
+tmp &lt;- extract(raster(elevfn), xyprj)
+head(tmp)
+
+# Now, let's create a function to extract, so we can extract from all the rasters at the same time. 
+extract.fun &lt;- function(rast, xy){ extract(raster(rast), xy) }
+
+# Now, apply this function to the vector list of raster file names.
+rastext &lt;- sapply(rastfnlst, extract.fun, xyprj)
+
+# Look at the output and check the class. 
+head(rastext)
+
+class(rastext)
+
+## Extract values (raster package) cont..  change names
+
+# Let's make the column names shorter. 
+colnames(rastext)
+
+# Use the rastfnlst vector of file names to get new column names.
+# First, get the base name of each raster, without the extension.
+cnames &lt;- unlist(strsplit(basename(rastfnlst), ".img"))
+cnames
+
+# We could stop here, but let's make the names even shorter and remove
+# 'uintaN_' from each name.
+cnames2 &lt;- substr(cnames, 8, nchar(cnames))
+cnames2
+
+# Now, add names to matrix. Because the output is a matrix, we will use colnames.
+colnames(rastext) &lt;- cnames2
+head(rastext)</code></pre>
+<p><img src="img/generation.png" class="img-fluid"></p>
+<pre><code># Now, let's append this matrix to the plot table with the response data (plt2).
+head(plt2)
+
+# We just want the response variables, so let's extract these columns along with the unique identifier of the table (CN, aspen, CARBON_KG).
+modeldat &lt;- cbind(plt2[,c("PLT_CN", "aspen", "CARBON_KG")], rastext)
+head(modeldat)
+
+# Check if this is a data frame
+is.data.frame(modeldat)     
+
+dim(modeldat)
+
+# Let's also append the projected xy coordinates for overlaying with raster layers.
+modeldat &lt;- cbind(xyprj, modeldat)
+head(modeldat)
+
+colnames(modeldat)[1:2] &lt;- c("X", "Y")
+head(modeldat)</code></pre>
+<p>Now follow along with the <strong>Data Exploration</strong> section of the workshop slides. Think about what you would change and what you might leave the same regarding coding style and workflow.</p>
+<p>Now we will continue on with the <strong>Modelling Generation</strong> section of the workshop slides, following the code below.</p>
+<p><img src="img/generation.png" class="img-fluid"></p>
+<pre><code>library(rpart)
+
+## Classification tree
+asp.tree &lt;- rpart(aspen ~ TMB5 + TMndvi + fnfrcl + elevm + slp + aspval,    data=modeldat, method="class")
+
+plot(asp.tree)
+text(asp.tree, cex=0.75)
+
+## Regression tree
+carb.tree &lt;- rpart(CARBON_KG ~ TMB5 + TMndvi + fnfrcl + elevm + slp + aspval,   data=modeldat)
+plot(carb.tree)
+text(carb.tree, cex=0.75)
+
+## Now, let's use the randomForests package – Classification tree
+library(randomForest)
+help(randomForest)
+
+## Let's try with ASPEN binary, categorical response (presence/absence)
+set.seed(66)
+asp.mod &lt;- randomForest(factor(aspen) ~ TMB5 + TMndvi + fnfrcl + elevm + slp + aspval,  data=modeldat, importance = TRUE, na.action = na.exclude)
+
+
+## Default parameters:
+# ntree = 500   # Number of trees
+# mtry = sqrt(p)    # Number of predictors (p) randomly sampled at each node
+# nodesize = 1  # Minimum size of terminal nodes
+# replace = TRUE    # Bootstrap samples are selected with replacement   
+
+
+## Look at results
+asp.mod
+
+summary(asp.mod)
+
+err &lt;- asp.mod$err.rate # Out-Of-Bag (OOB) error rate (of i-th element)
+head(err)
+
+tail(err)
+
+mat &lt;- asp.mod$confusion    # Confusion matrix
+mat
+
+## Classification tree - Output
+
+# Plot the number of trees by the error rate
+plot(1:500, err[,"OOB"], xlab="Number of trees", ylab="Error rate")
+
+# Note: how many trees needed to stabilize prediction
+
+## Calculate the percent correctly classified from confusion (error) matrix
+mat
+
+pcc &lt;- sum(diag(mat[,1:2]))/sum(mat) * 100
+pcc
+
+pcc &lt;- round(pcc, 2)    ## Round to nearest 2 decimals
+pcc
+
+library(PresenceAbsence)
+pcc(mat[,1:2], st.dev=TRUE)
+
+Kappa(mat[,1:2], st.dev=TRUE)
+
+## The Kappa statistic summarizes all the available information in the confusion matrix.
+## Kappa measures the proportion of correctly classified units after accounting for the probability of chance agreement.
+
+## Now, let's use the randomForests package – regression tree
+
+## Now, let's try with the continuous, CARBON_KG response
+set.seed(66)
+carb.mod &lt;- randomForest(CARBON_KG ~ TMB5 + TMndvi + elevm + slp + aspval,  data=modeldat, importance = TRUE, na.action=na.exclude)
+
+## Default parameters:
+# ntree = 500   # Number of trees
+# mtry = p/3    # Number of predictors (p) randomly sampled at each node
+# nodesize = 5  # Minimum size of terminal nodes
+# replace = TRUE    # Bootstrap samples are selected with replacement   
+
+## Look at results
+carb.mod
+
+summary(carb.mod)
+
+names(carb.mod)
+
+## Regression tree - Output
+
+names(carb.mod)
+
+mse &lt;- carb.mod$mse # Mean square error (of i-th element) 
+rsq &lt;- carb.mod$rsq # Pseudo R-squared (1-mse/Var(y))(of i-th element)
+
+head(mse)
+
+tail(mse)
+
+tail(rsq)
+
+## Regression tree - Output
+
+# Plot the number of trees by the mse (Mean Square Error)
+plot(1:500, mse, xlab="Number of trees", ylab="Mean Square Error rate")
+
+# Note: how many trees needed to stabilize prediction
+
+# Similarly, plot the number of trees by the rsq (R-Squared)
+plot(1:500, rsq, xlab="Number of trees", ylab="R-Squared")
+
+# Again: how many trees needed to stabilize prediction
+
+## Variable importance – Classification tree
+
+## Get importance table
+asp.imp &lt;- abs(asp.mod$importance)
+asp.imp
+
+## Get the number of measures (columns) and number of predictors
+ncols &lt;- ncol(asp.imp)      ## Number of measures
+numpred &lt;- nrow(asp.imp)        ## Get number of predictors
+
+
+## Plot the measures of variable importance for ASPEN presence/absence
+par(mfrow=c(2,2))
+for(i in 1:ncols){  ## Loop thru the different importance measures
+    ivect &lt;- sort(asp.imp[,i], dec=TRUE)        ## Get 1st measure, descending order
+    iname &lt;- colnames(asp.imp)[i]       ## Get name of measure
+
+    # Generate histogram plot (type='h') with no x axis (xaxt='n')
+    plot(ivect, type = "h", main = paste("Measure", iname), xaxt="n",
+        xlab = "Predictors", ylab = "", ylim=c(0,max(ivect)))
+
+    # Add x axis with associated labels
+    axis(1, at=1:numpred, lab=names(ivect)) 
+}
+
+## Let’s make a function and plot importance values for CARBON_KG model.
+
+plotimp &lt;- function(itab){
+    ncols &lt;- ncol(itab)         ## Number of measures
+    numpred &lt;- nrow(itab)       ## Get number of predictors
+
+    ## Plot the measures of variable importance 
+    par(mfrow = c(ncols/2,2))
+    for(i in 1:ncols){  ## Loop thru the different importance measures
+        ivect &lt;- sort(itab[,i], dec=TRUE)   ## Get 1st measure, sorted decreasing
+        iname &lt;- colnames(itab)[i]      ## Get name of measure
+
+        # Generate histogram plot (type='h') with no x axis (xaxt='n')
+        plot(ivect, type = "h", main = paste("Measure", iname), xaxt="n",
+            xlab = "Predictors", ylab = "", ylim=c(0,max(ivect)))
+
+        # Add x axis with associated labels
+        axis(1, at=1:numpred, lab=names(ivect)) }
+}
+
+## Check function with ASPEN model
+plotimp(asp.imp)
+
+## Now, run funtion with CARBON_KG model
+plotimp(carb.mod$importance)
+
+## Other information from RandomForest model (proximity=TRUE)
+
+# Measure of internal structure (Proximity measure)
+    # - The fraction of trees in which each plot falls in the same terminal node.
+
+# - Similarity measure - in theory, similar data points will end up in the same terminal node.
+
+
+## Let's try adding proximity to CARBON_KG model
+set.seed(66)
+carb.mod &lt;- randomForest(CARBON_KG ~ TMB5 + TMndvi + elevm + slp + aspval,  data=modeldat, importance = TRUE, proximity = TRUE, na.action = na.exclude)
+
+names(carb.mod)
+
+carb.prox &lt;- carb.mod$proximity
+
+#you can now explore carb.prox</code></pre>
+<p>The final step in the analysis is to apply the model to the full dataset, in order to map the predicted outcomes.</p>
+<section id="resources-this-week" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="resources-this-week"><span class="header-section-number">3.1.1</span> Resources this week</h3>
+<ul>
+<li><p><a href="http://r-statistics.co/Linear-Regression.html">Tutorial - Linear Regression</a></p></li>
+<li><p><a href="https://finnstats.com/index.php/2022/03/13/predictive-analytics-models-in-r/">Predictive analytics post</a></p></li>
+</ul>
+</section>
+</section>
+<section id="parameterizationvalidation-iii" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="parameterizationvalidation-iii"><span class="header-section-number">3.2</span> Parameterization/Validation I/II</h2>
+<p>Demo in class</p>
+</section>
+<section id="modelling-socio-technical-critique" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="modelling-socio-technical-critique"><span class="header-section-number">3.3</span> Modelling: Socio-Technical Critique</h2>
+<section id="resources-this-week-1" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="resources-this-week-1"><span class="header-section-number">3.3.1</span> Resources this week</h3>
+<ul>
+<li><p><a href="https://link.springer.com/article/10.1007/s10109-020-00334-2">Brundson and Comber 2021</a></p></li>
+<li><p><a href="https://www.sciencedirect.com/science/article/pii/S1364815218303773">Blair et al.&nbsp;2019</a><br>
+</p></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./dataanalytic-visualization.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Data/Analytic Visualization</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./data-to-decisions.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data to Decisions</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

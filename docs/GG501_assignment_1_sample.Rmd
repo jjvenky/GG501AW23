@@ -1,0 +1,64 @@
+---
+title: "GG501 - Assignment 1"
+author: "Student Name"
+date: "`r paste(format(Sys.Date(), '%Y-%m-%d'))`"
+output: html_document
+---
+
+## Assignment 1 - Exploratory Visualization in ggplot2 and data storytelling
+
+1.  Explain in a couple of sentences why you selected this dataset. \[2 marks\]
+
+My answer is written here and is going to clearly articulate what dataset I selected and why I selected this dataset for my analysis.
+
+```{r echo=TRUE}
+#code to read in data into a tibble
+#***********************************
+library(readr)
+df <- read_csv("https://vincentarelbundock.github.io/Rdatasets/csv/openintro/snowfall.csv", 
+            col_types = list( 
+            year_start = col_integer(), 
+            year_end = col_integer(), 
+            total_snow = col_double())
+              )
+```
+
+2.  Create a bar plot using `ggplot2` graphing. Write a sentence interpreting what is happening in the graph. Make sure you read up on the documentation of the data to understand what is represented and how it was measured. \[5 marks\]
+
+```{r echo=TRUE}
+#code to create a bar graph
+#***********************************
+
+
+```
+
+This graph shows ....
+
+3.  Create a line or point plot using `ggplot2` graphing. Write a sentence interpreting what is happening in the graph. Make sure you read up on the documentation of the data to understand what is represented and how it was measured. \[5 marks\]
+
+```{r echo=TRUE}
+#code
+#***********************************
+
+
+```
+  
+4.  Create any other plot of your choosing using `ggplot2` graphing. Write a sentence interpreting what is happening in the graph. Make sure you read up on the documentation of the data to understand what is represented and how it was measured. \[5 marks\]
+
+```{r echo=TRUE}
+#code
+#***********************************
+
+
+```
+
+5.  Select another dataset and tell a story with the data. Think about who a potential audience is for your story. Using the structure outlined in lecture slides, write a sentence or two for each phase of the data story: **Opening**, **Challenge**, **Action**, and **Resolution**. For each, include a visualization to illustrate (which may or may not be a graph of the data- external sources can be used here as well). In order to understand the context of the data, you will have to do some background research into the dataset this is generally available in the documentation. The story should include at least three graphs you create from the data(which must be labelled correctly and not be duplicates of graphs for questions 2-4). \[15 marks\]
+
+```{r echo=TRUE}
+#code
+#***********************************
+
+
+```
+
+7.  What might or could you have done differently in question 5 if you were preparing the analysis for another audience/user community? \[5 marks\]

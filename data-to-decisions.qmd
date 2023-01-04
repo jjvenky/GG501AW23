@@ -1,0 +1,37 @@
+---
+title: "Data to Decisions"
+---
+
+## Communications strategies for EDA
+
+Communicating with data is ultimately about telling stories, even when employing the most complex data processing pipelines and computational models. Ultimately, the outptus generated from *environmental data analytics* are used to improve understanding and decision making on real-world issues. As such, we consider how we tailor our message to specific audiences carefully. As with all knowledge mobilization, we need to consider a range of tools available for communicating insights gained from data intensive analysis, including but not limited to:
+
+-   published papers
+
+-   blog posts
+
+-   conference presentations
+
+-   talks at community events
+
+-   workshops (academic, community, stakeholder), technical or domain-driven
+
+-   software and data documentation
+
+-   social media posts (e.g., twitter)
+
+### Resources this week
+
+There is no hard reciple for what to say in a given communication medium. Most advice out there pertain to research talks in a conference style presentation format, and you can build your own synthesis of these guides to help you structure what to include and what to exclude. We will focus mostly on this reading - which can be adapted to a variety of contexts
+
+-   [Farrel - short paper](http://computersciencestudent.com/resources/ResearchTalkJohnFarrell.html)
+
+Though other helpful tips are available in the following sources (and many others)
+
+-   [Jones et al. - short paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/giving-a-talk.pdf)
+
+    -   [video](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/)
+
+-   [Weirich - powerpoint](https://www.cis.upenn.edu/~sweirich/talks/plmw15-giving-a-talk.pdf)
+
+-   [Fleming - Nature article](https://www.nature.com/articles/d41586-018-07780-5)
