@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GG501",
+    "section": "",
+    "text": "1 Introduction\nScheduled as Wednesdays 08:30–11:20, P331 (Peters building)"
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "GG501",
+    "section": "1.1 Course Description",
+    "text": "1.1 Course Description\nTranslating data into actionable insights requires more than analytical tools; the ability to communicate, visualize, deconstruct and interrogate analytic results is an increasingly required set of skills for environmental professionals. This course builds the skills and knowledge needed to interpret, critique, and communicate outputs from data-analytic workflows and processes. Key issues discussed include parameterization, sensitivity analysis, visualization, and summarizing results for a variety of audiences."
+  },
+  {
+    "objectID": "index.html#learning-objectives",
+    "href": "index.html#learning-objectives",
+    "title": "GG501",
+    "section": "1.2 Learning Objectives",
+    "text": "1.2 Learning Objectives\n\ncreate and critique visualizations for disparate data types\ncritically evaluate statistical and machine learning model output\ncritically evaluate the data quality dimensions of environmental data workflows\ndescribe approaches for incorporating data science outputs into environmental decision making"
+  },
+  {
+    "objectID": "index.html#goals-of-the-course",
+    "href": "index.html#goals-of-the-course",
+    "title": "GG501",
+    "section": "1.3 Goals of the Course",
+    "text": "1.3 Goals of the Course\nThis course will develop skills that allow students to ask critical questions of environmental data analytic tools. We will focus on visualization and model assessment techniques. Students will be expected to work with statistical programming language R in the course."
+  },
+  {
+    "objectID": "index.html#required-text",
+    "href": "index.html#required-text",
+    "title": "GG501",
+    "section": "1.4 Required Text",
+    "text": "1.4 Required Text\n\nWickham H, Navaro D, Pedersen TL. 2021. Ggplot2: Elegant Graphics for Data Analysis. 3rd ed. Springer. https://ggplot2-book.org\nChang W. 2021. R Graphics Cookbook, 2nd Edition. https://r-graphics.org"
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "GG501",
+    "section": "1.5 Schedule",
+    "text": "1.5 Schedule\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\nJanuary 11\nIntroduction, spatial knowledge mobilization, key concepts\n\n\n\nJanuary 18\nTabular visualization\nR base , ggplot2\n\n\nJanuary 25\nTime series visualization\nR ggplot2\n\n\nFebruary 1\nSpatial visualization\nRggplot2, tmap, mapsf\n\n\nFebruary 8\nSpatial visualization\nRggplot2, tmap, mapsf\n\n\nFebruary 15\nModel visualization\nRggplot2, broom, jtools\n\n\nFebruary 22\nReading Week\n\n\n\nMarch 1\nWork Period & Catch Up!\n\n\n\nMarch 8\nModel parameterization and validation\nR stat, lme4\n\n\nMarch 15\nModel parameterization and validation\nRrandomForest, kmeans, spgwr\n\n\nMarch 22\nModelling: Socio-Technical Critique\nReadings\n\n\nMarch 29\nCommunication strategies for EDA\nRmarkdown, Shiny, Quarto?\n\n\nApril 5\nTeam Project Presentations"
+  },
+  {
+    "objectID": "index.html#evaluation",
+    "href": "index.html#evaluation",
+    "title": "GG501",
+    "section": "1.6 Evaluation",
+    "text": "1.6 Evaluation\n\n\n\n\n\n\n\n\nAssessment\nWeighting\nDue Date\n\n\n\n\nAssignments (3x15%)\n45%\nFebruary 1 March 8 March 22\n\n\nAnalytics Demo\n40%\nMarch 21 & 28\n\n\nParticipation\n15%\n\n\n\nTotal\n100%"
+  },
+  {
+    "objectID": "index.html#evaluation-items",
+    "href": "index.html#evaluation-items",
+    "title": "GG501",
+    "section": "1.7 Evaluation items",
+    "text": "1.7 Evaluation items\n\n1.7.1 Assignments\n\nThree assignments will require students to demonstrate data visualization and critique skills learned in the course. Students will be able to use their own datasets or any publicly available datasets of their choosing.\n\n\n\n1.7.2 Term Project\n\nStudents will work on a major project which will require either an independent data analysis project, or a detailed critique/reproduction of an existing published analysis.\n\n\n\n1.7.3 Participation\n\nStudents will be expected to attend and participate in designated course times. Participate includes contributing to discussions and working collaboratively with other students when needed."
+  }
+]
