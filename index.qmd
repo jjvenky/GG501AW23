@@ -1,11 +1,69 @@
 ---
-title: "qw"
+title: "GG501 Spatial Knowledge Mobilization"
 ---
 
-This is a Quarto website.
+# Introduction
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+*Scheduled as Wednesdays 08:30–11:20, P331 (Peters building)*
 
-```{r}
-1 + 1
-```
+
+## Course Description
+
+Translating data into actionable insights requires more than analytical tools; the ability to communicate, visualize, deconstruct and interrogate analytic results is an increasingly required set of skills for environmental professionals. This course builds the skills and knowledge needed to interpret, critique, and communicate outputs from data-analytic workflows and processes. Key issues discussed include parameterization, sensitivity analysis, visualization, and summarizing results for a variety of audiences.
+
+
+## Learning Objectives
+  * create and critique visualizations for disparate data types
+  * critically evaluate statistical and machine learning model output
+  * critically evaluate the data quality dimensions of environmental data workflows
+  * describe approaches for incorporating data science outputs into environmental decision making
+
+
+## Goals of the Course
+This course will develop skills that allow students to ask critical questions of environmental data analytic tools. We will focus on visualization and model assessment techniques. Students will be expected to work with statistical programming language R in the course.
+
+
+## Required Text
+  * Wickham H, Navaro D, Pedersen TL. 2021. Ggplot2: Elegant Graphics for Data Analysis. 3rd ed. Springer. <https://ggplot2-book.org>
+  * Chang W. 2021. R Graphics Cookbook, 2nd Edition. <https://r-graphics.org>
+
+
+## Schedule
+
+|Week         |Topic                                |Tools|
+|:---         |:----                                |:----|
+|January 11	  |Introduction, spatial knowledge mobilization, key concepts|
+|January 18	  |Tabular visualization	              |R base , ggplot2|
+|January 25	  |Time series visualization          	|R ggplot2|
+|February 1	  |Spatial visualization              	|Rggplot2, tmap, mapsf|
+|February 8  	|Spatial visualization	              |Rggplot2, tmap, mapsf|
+|February 15	|Model visualization	                |Rggplot2, broom, jtools|
+|February 22	|Reading Week|
+|March 1    	|Work Period & Catch Up!
+|March 8    	|Model parameterization and validation	|R stat, lme4|
+|March 15    	|Model parameterization and validation	|RrandomForest, kmeans, spgwr|
+|March 22    	|Modelling: Socio-Technical Critique	|Readings|
+|March 29    	|Communication strategies for EDA	    |Rmarkdown, Shiny, Quarto?|
+|April 5    	|Team Project Presentations|
+
+
+## Evaluation
+
+| Assessment          	| Weighting 	| Due Date                    	|
+|---------------------	|-----------	|-----------------------------	|
+| Assignments (3x15%) 	| 45%       	| February 1 March 8 March 22 	|
+| Analytics Demo      	| 40%       	| March 21 & 28               	|
+| Participation       	| 15%       	|                             	|
+| Total               	| 100%      	|                             	|
+
+
+## Evaluation items
+
+### Assignments
+  * Three assignments will require students to demonstrate data visualization and critique skills learned in the course. Students will be able to use their own datasets or any publicly available datasets of their choosing.
+
+### Term Project
+  * Students will work on a major project which will require either an independent data analysis project, or a detailed critique/reproduction of an existing published analysis.
+
+### Participation
+  * Students will be expected to attend and participate in designated course times. Participate includes contributing to discussions and working collaboratively with other students when needed.

@@ -1,13 +1,12 @@
 project:
-  type: website
+  type: book
 
-website:
-  title: "qw"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+book:
+  title: "GG501"
+  author: Jason Venkiteswaran
+  date: "2023-01-09"
+  chapters: 
+    - index.qmd
 
 format:
   html:
