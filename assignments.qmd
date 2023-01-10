@@ -42,6 +42,8 @@ Your objective in this assignment is to perform a real-world analysis of geospat
 
 -   D - Calgary
 
+-   other cities will be identified as necessary for other students.
+
 Transportation issues are always top of mind in Canadian cities and you can choose to focus on aspects of the street network, availability of transit relative to population, actual commuting data, etc. It is up to you to define a reasonable question to explore and to source appropriate data for this assignment. Every city has an open data portal with some data that will likely be of help, however you can also seek data from other sources. I will be happy to help you with accessing datasets.
 
 The outcome of this project is an Rmarkdown or Quarto report report detailing the issues explored (approximately 5 written pages double-spaced), the datasets, and the analysis performed. Visualization outputs should be presented in an appendix and an accompanying 10 minute presentation to be done in class on March 8th (we might do these via Zoom).
