@@ -4,6 +4,7 @@ project:
 
 book:
   title: "GG501"
+  favicon: "favicon.png"
   author: Jason Venkiteswaran
   date: "2023-01-09"
   chapters: 
