@@ -42,6 +42,8 @@ Your objective in this assignment is to perform a real-world analysis of geospat
 
 -   D - Calgary
 
+-   E - Winnipeg
+
 -   other cities will be identified as necessary for other students.
 
 Transportation issues are always top of mind in Canadian cities and you can choose to focus on aspects of the street network, availability of transit relative to population, actual commuting data, etc. It is up to you to define a reasonable question to explore and to source appropriate data for this assignment. Every city has an open data portal with some data that will likely be of help, however you can also seek data from other sources. I will be happy to help you with accessing datasets.
@@ -70,7 +72,7 @@ Submit the report (Rmarkdown or Quarto file plus PDF file) via email to Jason at
 
 For this assignment we will complete a **Tidy Tuesday submission**. Tidy Tuesday came out of the [R4DS (R for data science) Texbook and Online Learning Community](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund. A [second edition](https://r4ds.hadley.nz/) is currently being written. Every week a new data set (i.e., data are partly preprocessed but not completely tidy) alongside an article or a source is posted on the [Tidy Tuesday GitHub repository](https://github.com/rfordatascience/tidytuesday/tree/master/data).
 
-The goal is to explore this data set using data wrangling and summarizing techniques and (a lot of) insightful visualizations. You will **only have around 24 hours** to create a visualization based on these data. If you use any external sources (e.g., other submissions) for ideas or as sources you must cite them, though you should strive to create a totally original visualization. You will need to submit code (R script) used to produce the visualization as well as an image file (JPG, PNG, or PDF) of the submission. The data are released on GitHub on Monday and your submission must be handed in by **end of day Tuesday, March 22**.
+The goal is to explore this data set using data wrangling and summarizing techniques and (a lot of) insightful visualizations. You will **only have around 24-48 hours** to create a visualization based on these data. If you use any external sources (e.g., other submissions) for ideas or as sources you must cite them, though you should strive to create a totally original visualization. You will need to submit code (R script) used to produce the visualization as well as an image file (JPG, PNG, or PDF) of the submission. The data are released on GitHub on Monday and your submission must be handed in by **end of day Wednesday, March 22**.
 
 Participation in the Tidy Tuesday project may also serve to be an introduction to the wider R user community. There is a very active R user community on Twitter, [people livestream their R coding sessions on YouTube](https://www.youtube.com/watch?v=89l_3Y53qMM&ab_channel=DavidRobinson), and Tidy Tuesday submissions are typically shared on Twitter with the [#TidyTuesday hashtag](https://twitter.com/search?q=%23TidyTuesday). You are welcome to share your submission with the wider community after you submit it.
 
