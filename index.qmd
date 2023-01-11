@@ -4,7 +4,7 @@ title: "GG501 Spatial Knowledge Mobilization"
 
 # Introduction
 
-*Scheduled as Wednesdays 08:30–11:20, P331 (Peters building)*
+*Scheduled as Wednesdays 09:00–11:20, P331 (Peters building)*
 
 
 ## Course Description
@@ -32,7 +32,7 @@ This course will develop skills that allow students to ask critical questions of
 
 |Week         |Topic                                |Tools|
 |:---         |:----                                |:----|
-|January 11	  |Introduction, spatial knowledge mobilization, key concepts|
+|January 11	  |[Introduction, spatial knowledge mobilization](lecs/GG501-lecture_01.pdf), key concepts|
 |January 18	  |Tabular visualization	              |R base , ggplot2|
 |January 25	  |Time series visualization          	|R ggplot2|
 |February 1	  |Spatial visualization              	|Rggplot2, tmap, mapsf|
