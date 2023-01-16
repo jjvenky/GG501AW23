@@ -2,7 +2,7 @@
 title: "Data/Analytic Visualization"
 ---
 
-## SKM Introduction
+## Spatial Knowledge Mobilization Introduction
 
 ### Readings this week
 
@@ -14,7 +14,9 @@ title: "Data/Analytic Visualization"
 
 ### Readings this week
 
-[HNP-3 Individual geoms](https://ggplot2-book.org/individual-geoms.html) [HNP-4 Collective geoms](https://ggplot2-book.org/collective-geoms.html) [HNP-5 Statistical summaries](https://ggplot2-book.org/statistical-summaries.html) [ggplot2 Cheat Sheet](https://rawgit.com/rstudio/cheatsheets/master/data-visualization.pdf)
+-   [HNP-3 Individual geoms](https://ggplot2-book.org/individual-geoms.html)
+-   [HNP-4 Collective geoms](https://ggplot2-book.org/collective-geoms.html) [HNP-5 Statistical summaries](https://ggplot2-book.org/statistical-summaries.html)
+-   [ggplot2 Cheat Sheet](https://rawgit.com/rstudio/cheatsheets/master/data-visualization.pdf)
 
 ### Case study
 
