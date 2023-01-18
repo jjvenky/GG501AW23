@@ -33,7 +33,7 @@ This course will develop skills that allow students to ask critical questions of
 |Week         |Topic                                |Tools|
 |:---         |:----                                |:----|
 |January 11	  |[Introduction, spatial knowledge mobilization, key concepts](lecs/GG501-lecture_01.pdf)|
-|January 18	  |Tabular visualization	              |R base , ggplot2|
+|January 18	  |[Tabular visualization](lecs/GG501-lecture_02.pdf)|	              |R base , ggplot2|
 |January 25	  |Time series visualization          	|R ggplot2|
 |February 1	  |Spatial visualization              	|Rggplot2, tmap, mapsf|
 |February 8  	|Spatial visualization	              |Rggplot2, tmap, mapsf|
