@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 book:
-  title: "GG501"
+  title: "GG501 Witner 2023"
   favicon: "favicon.png"
-  author: Jason Venkiteswaran
+  author: "Jason Venkiteswaran"
   date: "2023-01-09"
   chapters: 
     - index.qmd
