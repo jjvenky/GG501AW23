@@ -28,7 +28,7 @@ Your assignment should answer the following questions and be totally reproducibl
 
 ### Submission
 
-Submit via email to Jason at the start of class on February 1.
+Submit via dropbox on mylearningspace by the end of February 1.
 
 ## Assignment 2 - Spatial and temporal visualization of urban data
 
@@ -66,17 +66,17 @@ Recall some of the ideas about story-telling with data as you think through and 
 
 ### Submission
 
-Submit the report (Rmarkdown or Quarto file plus PDF file) via email to Jason at the start of class on March 8reproducibility. Presentations will take place that day as well.
+Submit the report (Rmarkdown or Quarto file plus PDF file) via dropbox on mylearningspace by the end of March 8. Presentations will take place that day as well.
 
 ## Assignment 3 - Tidy Tuesday Submission
 
 For this assignment we will complete a **Tidy Tuesday submission**. Tidy Tuesday came out of the [R4DS (R for data science) Texbook and Online Learning Community](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund. A [second edition](https://r4ds.hadley.nz/) is currently being written. Every week a new data set (i.e., data are partly preprocessed but not completely tidy) alongside an article or a source is posted on the [Tidy Tuesday GitHub repository](https://github.com/rfordatascience/tidytuesday/tree/master/data).
 
-The goal is to explore this data set using data wrangling and summarizing techniques and (a lot of) insightful visualizations. You will **only have around 24-48 hours** to create a visualization based on these data. If you use any external sources (e.g., other submissions) for ideas or as sources you must cite them, though you should strive to create a totally original visualization. You will need to submit code (R script) used to produce the visualization as well as an image file (JPG, PNG, or PDF) of the submission. The data are released on GitHub on Monday and your submission must be handed in by **end of day Wednesday, March 22**.
+The goal is to explore this data set using data wrangling and summarizing techniques and (a lot of) insightful visualizations. You will **only have around 24-48 hours** to create a visualization based on these data. If you use any external sources (e.g., other submissions) for ideas or as sources you must cite them, though you should strive to create a totally original visualization. You will need to submit code (R script) used to produce the visualization as well as an image file (JPG, PNG, or PDF) of the submission. The data are released on GitHub on Monday and your submission must be handed in by **end of day Wednesday, March 22** via dropbox on mylearningspace.
 
 Participation in the Tidy Tuesday project may also serve to be an introduction to the wider R user community. There is a very active R user community on Twitter, [people livestream their R coding sessions on YouTube](https://www.youtube.com/watch?v=89l_3Y53qMM&ab_channel=DavidRobinson), and Tidy Tuesday submissions are typically shared on Twitter with the [#TidyTuesday hashtag](https://twitter.com/search?q=%23TidyTuesday). You are welcome to share your submission with the wider community after you submit it.
 
-## Term Project
+## Term Project (Analytics Demo)
 
 Your task for a term project is to complete an independent data analysis project on a topic of your choosing. You must source your own dataset for this project. The project should address some clearly articulated questions and include enough contextual information about the problem in order to motivate your analysis.
 
