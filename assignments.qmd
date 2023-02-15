@@ -44,7 +44,7 @@ Your objective in this assignment is to perform a real-world analysis of geospat
 
 -   E - Winnipeg
 
--   F - Ottawa
+-   F - Ottawa - Arman
 
 -   G - Durham
 
