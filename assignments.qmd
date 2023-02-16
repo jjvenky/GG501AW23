@@ -38,7 +38,7 @@ Your objective in this assignment is to perform a real-world analysis of geospat
 
 -   B - Vancouver - Yujia
 
--   C - Toronto
+-   C - Toronto - Toronto
 
 -   D - Calgary - Jan
 
@@ -48,7 +48,7 @@ Your objective in this assignment is to perform a real-world analysis of geospat
 
 -   G - Durham
 
--   H - Halifax
+-   H - Halifax - Nadoosh
 
 -   other cities will be identified as necessary for other students.
 
