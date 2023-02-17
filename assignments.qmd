@@ -34,7 +34,7 @@ Submit via dropbox on mylearningspace by the end of February 1.
 
 Your objective in this assignment is to perform a real-world analysis of geospatial data from an urban centre. In this assignment you are taking on the role of an geospatial consultant tasked with analyzing aspects of the transportation system in a Canadian city that will be assigned to you. The specific exploration is up to you and to some extent will be a function of the available data, but feel free to do some background research.
 
--   A - Montreal
+-   A - Montreal - Bihanchi
 
 -   B - Vancouver - Yujia
 
@@ -49,6 +49,8 @@ Your objective in this assignment is to perform a real-world analysis of geospat
 -   G - Durham
 
 -   H - Halifax - Nadoosh
+
+-   I - Edmonton - Sudi
 
 -   other cities will be identified as necessary for other students.
 
