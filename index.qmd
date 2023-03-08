@@ -29,7 +29,7 @@ This course will develop skills that allow students to ask critical questions of
 ## Schedule
 
 | Week        | Topic                                                                                   | Tools                        |
-|:------------|:----------------------------------------------------------------------------------------|:-----------------------------|
+|:-------------|:------------------------------------------|:-------------|
 | January 11  | [Introduction, spatial knowledge mobilization, key concepts](lecs/GG501-lecture_01.pdf) |                              |
 | January 18  | [Tabular visualization](lecs/GG501-lecture_02.pdf)                                      |                              |
 | January 25  | [Time series visualization](lecs/GG501-lecture_03.pdf)                                  | R ggplot2, ts                |
@@ -38,7 +38,7 @@ This course will develop skills that allow students to ask critical questions of
 | February 15 | [Model visualization](lecs/GG501-lecture_06.pdf)                                        | R ggplot2, broom, jtools     |
 | February 22 | Reading Week                                                                            |                              |
 | March 1     | Work Period & Catch Up!                                                                 |                              |
-| March 8     | Model parameterization and validation                                                   | R stat, lme4                 |
+| March 8     | [Model parameterization and validation](lecs/GG501-lecture_07.pdf)                      | R stat, lme4                 |
 | March 15    | Model parameterization and validation                                                   | RrandomForest, kmeans, spgwr |
 | March 22    | Modelling: Socio-Technical Critique                                                     | Readings                     |
 | March 29    | Communication strategies for EDA                                                        | Rmarkdown, Shiny, Quarto?    |
