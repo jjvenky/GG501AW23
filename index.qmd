@@ -53,11 +53,11 @@ This course will develop skills that allow students to ask critical questions of
 +-------------+-----------------------------------------------------------------------------------------+------------------------------+
 | March 15    | Model parameterization and validation                                                   | RrandomForest, kmeans, spgwr |
 +-------------+-----------------------------------------------------------------------------------------+------------------------------+
-| March 22    | Modelling: Socio-Technical Critique                                                     | Readings                     |
+| March 22    | [Modelling: Socio-Technical Critique](lecs/GG501-lecture_08.pdf)                        | Readings                     |
 +-------------+-----------------------------------------------------------------------------------------+------------------------------+
-| March 29    | Communication strategies for EDA                                                        | Rmarkdown, Shiny, Quarto?    |
+| March 29    | Communication strategies for EDA                                                        |                              |
 +-------------+-----------------------------------------------------------------------------------------+------------------------------+
-| April 5     | Team Project Presentations                                                              |                              |
+| April 5     | Term Project Presentations                                                              |                              |
 +-------------+-----------------------------------------------------------------------------------------+------------------------------+
 
 ## Evaluation
@@ -65,7 +65,7 @@ This course will develop skills that allow students to ask critical questions of
 | Assessment          | Weighting | Due Date                       |
 |---------------------|-----------|--------------------------------|
 | Assignments (3x15%) | 45%       | February 1, March 8 & March 22 |
-| Analytics Demo      | 40%       | March 21 & 28                  |
+| Analytics Demo      | 40%       | March 29 & April 5             |
 | Participation       | 15%       |                                |
 | Total               | 100%      |                                |
 
